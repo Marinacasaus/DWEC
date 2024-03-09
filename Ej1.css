@@ -1,0 +1,126 @@
+body, html {
+    margin: 40px;
+    height: 100%;
+
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%) fixed;
+    color: #FFF;
+}
+
+.lista {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista li {
+    padding: 5px 0; 
+    margin: 5px 0; 
+    width: 200px; 
+    margin: 5px auto; 
+    text-align: center; 
+  }
+
+  .lista li.selected {
+    background: linear-gradient(10deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%) fixed;
+    color: white;
+    border: 3px solid #FF637D; 
+  }
+  
+
+.mensaje {
+    font-size: 15px; 
+    font-style: italic; 
+    margin: 16px; 
+    color: #333; 
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding-top: 40px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    color: #FF637D;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:not([disabled]):focus {
+box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+button:not([disabled]):hover {
+box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+input#numero, #numero1, #numero2, #numero3, #nombre, #edad {
+    width: 220px; /* Ancho original */
+    height: 30px; /* Altura aumentada */
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Borde sólido para una apariencia uniforme */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombras uniformes */
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    display: inline-table;
+    background-color: rgba(255,255,255,0.1);
+    color: #FFF;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+caption {
+    padding: 10px;
+    background-color: #FF637D; /* Color más claro que el anterior */
+    color: white;
+    font-size: 1.3em;  /* Tamaño de fuente reducido */
+    border-radius: 10px; /* Bordes completamente redondeados */
+    text-align: center;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+th {
+    background-color: #ef47667a;
+    color: #FFF;
+    border-radius: 12px;
+}
